@@ -102,10 +102,9 @@
 }
 
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 .col-sm-12 {
