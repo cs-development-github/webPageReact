@@ -5,7 +5,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 15px;
     width: 360px;
-    height: 90px;
 }
 
 .white-circle {
@@ -15,7 +14,17 @@
     background-color: #ffffff;
     border: 1px solid #eaeaea;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+
+.white-circle img {
+    width: 40px;
+    height: 40px;
+}
+
 
 .align-box-row {
     display: flex;
@@ -102,8 +111,6 @@
 }
 
 .container {
-    padding-right: 1rem;
-    padding-left: 1rem;
     padding-top: 1rem;
 }
 
@@ -122,6 +129,6 @@
     max-width: 33.333333%;
 }
 
-.mb-4 {
+.pb-4 {
     margin-bottom: 1rem;
 }
